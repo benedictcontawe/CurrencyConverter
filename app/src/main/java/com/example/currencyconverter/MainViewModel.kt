@@ -7,13 +7,11 @@ import androidx.lifecycle.MutableLiveData
 import com.example.currencyconverter.Model.Repository.CurrencyRepository
 import com.example.currencyconverter.Model.Entity.CurrencyRequestModel
 import com.example.currencyconverter.Model.Entity.CurrencyResponseModel
-import com.example.currencyconverter.Model.Room.Entity.CurrencyEntity
 import com.google.gson.Gson
 
 public class MainViewModel : AndroidViewModel {
 
     private lateinit var repository : CurrencyRepository
-    private lateinit var allCurrency: LiveData<List<CurrencyEntity>>
     private lateinit var status: MutableLiveData<String> //You have converted [fromAmount] [fromCurrency] to [amount] [toCurrency].
 
     var eur = MutableLiveData<String>()
@@ -22,8 +20,6 @@ public class MainViewModel : AndroidViewModel {
 
     constructor(application: Application) : super(application){
         repository = CurrencyRepository.getInstance(application)
-
-        repository.deleteAll()
     }
 
     fun getStatus(): LiveData<String> {
@@ -44,9 +40,5 @@ public class MainViewModel : AndroidViewModel {
         currencyResponseModel.Currency
 
         return  "${currencyResponseModel.Amount} ${currencyResponseModel.Currency}"
-    }
-
-    fun getAll() : LiveData<List<CurrencyEntity>> {
-        return allCurrency
     }
 }
