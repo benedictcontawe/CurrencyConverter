@@ -42,7 +42,7 @@ public class MainActivity : AppCompatActivity(), View.OnClickListener {
         })
     }
 
-    private fun setEventListeners(){
+    private fun setEventListeners() {
         binding.btnConvert.setOnClickListener(this)
     }
 

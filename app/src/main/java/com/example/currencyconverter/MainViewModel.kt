@@ -14,10 +14,6 @@ public class MainViewModel : AndroidViewModel {
     private lateinit var repository : CurrencyRepository
     private lateinit var status: MutableLiveData<String> //You have converted [fromAmount] [fromCurrency] to [amount] [toCurrency].
 
-    var eur = MutableLiveData<String>()
-    var usd = MutableLiveData<String>()
-    var jpy = MutableLiveData<String>()
-
     constructor(application: Application) : super(application){
         repository = CurrencyRepository.getInstance(application)
     }
