@@ -1,4 +1,4 @@
-#Fri Aug 02 22:40:33 CST 2019
+#Thu Aug 01 17:01:20 CST 2019
 base.0=C\:\\Users\\benedict.b.contawe\\StudioProjects\\CurrencyConverter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex

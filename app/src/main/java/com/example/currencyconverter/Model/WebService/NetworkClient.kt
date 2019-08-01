@@ -1,17 +1,19 @@
 package com.example.currencyconverter.Model.WebService
 
-import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.Retrofit
+
+
 
 class NetworkClient {
     companion object{
-        private val BASE_URL = "http://api.evp.lt"
-        private var retrofit: Retrofit? = null
+        val BASE_URL = "http://api.evp.lt"
+        var retrofit: Retrofit? = null
         /*
         This public static method will return Retrofit client
         anywhere in the appplication
         */
-        private fun provideOkHttpClient(): Retrofit? {
+        fun provideOkHttpClient(): Retrofit? {
             //If condition to ensure we don't create multiple retrofit instances in a single application
             if (retrofit == null) {
                 //Defining the Retrofit using Builder
@@ -21,11 +23,6 @@ class NetworkClient {
                     .build()
             }
             return retrofit
-        }
-
-        fun <S> createService(serviceClass: Class<S>?) : S {
-            provideOkHttpClient()  //Obtain an instance of Retrofit by calling the static method.
-            return retrofit!!.create(serviceClass)
         }
     }
 }
