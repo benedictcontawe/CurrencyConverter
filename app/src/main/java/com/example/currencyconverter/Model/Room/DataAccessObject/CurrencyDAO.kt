@@ -1,13 +1,11 @@
 package com.example.currencyconverter.Model.Room.DataAccessObject
 
 import androidx.lifecycle.LiveData
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.Query
-import androidx.room.Update
+import androidx.room.*
 import com.example.currencyconverter.Model.Room.Table.CurrencyTable
 
-interface CurrencyDAO {
+@Dao
+public interface CurrencyDAO {
 
     @Insert
     fun insert(currencyTable : CurrencyTable)
@@ -21,9 +19,9 @@ interface CurrencyDAO {
     @Query("DELETE FROM currency_table")
     abstract fun deleteAll()
 
-    @Query("SELECT * FROM currency_table ORDER BY Id ASC LIMIT 1")
+    @Query("SELECT * FROM currency_table WHERE Id = 1")//@Query("SELECT * FROM currency_table ORDER BY Id ASC LIMIT 1")
     fun getFirst() : LiveData<List<CurrencyTable>>
 
     @Query("SELECT * FROM currency_table")
-    fun getAll() : LiveData<List<CurrencyTable>>
+    fun getAll() : CurrencyTable
 }

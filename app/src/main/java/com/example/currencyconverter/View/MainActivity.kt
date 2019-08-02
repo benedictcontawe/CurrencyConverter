@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.currencyconverter.R
 import com.example.currencyconverter.MainViewModel
+import com.example.currencyconverter.Model.Room.Table.CurrencyTable
 import com.example.currencyconverter.databinding.MainBinder
 
 public class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -28,16 +29,25 @@ public class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onStart() {
         super.onStart()
 
-        setLiveDataObservers()
         setEventListeners()
+        setLiveDataObservers()
 
         viewModel.readGSON()
     }
 
     private fun setLiveDataObservers(){
-        viewModel.getStatus().observe(this, object : Observer<String> {
-            override fun onChanged(data: String?) {
-                binding.tvStatus.setText(data?:"null")
+
+        viewModel.getCurrency().observe(this, object : Observer<List<CurrencyTable>> {
+            override fun onChanged(data: List<CurrencyTable>) {
+                //You have converted [fromAmount] [fromCurrency] to [toAmount] [toCurrency]. Commission Fee - 0.70 [fromCurrency].
+                binding.tvStatus.setText("You have converted " +
+                        "${data[0].fromAmount} " +
+                        "${data[0].fromCurrency} " +
+                        "to " +
+                        "${data[0].fromAmount} " +
+                        "${data[0].fromCurrency}" +
+                        ". Commission Fee - 0.70 [fromCurrency].")
+                Toast.makeText(this@MainActivity, "Converted!", Toast.LENGTH_SHORT).show()
             }
         })
     }
@@ -49,7 +59,6 @@ public class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(view: View) {
         when(view.id){
             binding.btnConvert.id -> {
-                Toast.makeText(this, "CONVERT", Toast.LENGTH_SHORT).show()
                 viewModel.requestCurrency(binding.etAmount.text.toString(),binding.spinnerFromCurrency.selectedItem.toString(),binding.spinnerToCurrency.selectedItem.toString())
             }
         }

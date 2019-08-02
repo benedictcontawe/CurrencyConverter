@@ -10,32 +10,58 @@ import com.example.currencyconverter.Model.Room.DataAccessObject.CurrencyDAO
 import com.example.currencyconverter.Model.Room.Table.CurrencyTable
 
 @Database(entities = [CurrencyTable::class], version = 1)
-public  abstract class CurrencyDatabase : RoomDatabase() {
+public abstract class CurrencyDatabase : RoomDatabase() {
 
     abstract fun currencyDAO(): CurrencyDAO
 
     companion object{
-        private var instance : CurrencyDatabase? = null
+        @Volatile
+        private var INSTANCE: CurrencyDatabase? = null
 
         @Synchronized
-        fun getInstance(context: Context): CurrencyDatabase? {
+        fun getDatabase(context: Context): CurrencyDatabase {
+            /*
             if (instance == null) {
                 instance = Room.databaseBuilder(
                     context.applicationContext,
                     CurrencyDatabase::class.java, "media_database"
                 )
-                    .fallbackToDestructiveMigration()
-                    .addCallback(roomCallback)
-                    .build()
+                .fallbackToDestructiveMigration()
+                .addCallback(roomCallback)
+                .build()
             }
 
-            return instance
+            return instance?:
+            */
+            /*
+            return instance?:
+                Room.databaseBuilder(
+                context.getApplicationContext(),
+                CurrencyDatabase::class.java, "currency_table"
+                )
+                .fallbackToDestructiveMigration()
+                .addCallback(roomCallback)
+                .build()
+            */
+            val tempInstance = INSTANCE
+            if (tempInstance != null) {
+                return tempInstance
+            }
+            synchronized(this) {
+                val instance = Room.databaseBuilder(
+                    context.applicationContext,
+                    CurrencyDatabase::class.java,
+                    "Currency_Database"
+                ).build()
+                INSTANCE = instance
+                return instance
+            }
         }
 
         private val roomCallback = object : RoomDatabase.Callback() {
             override fun onCreate(db: SupportSQLiteDatabase) {
                 super.onCreate(db)
-                PopulateDatabaseAsyncTask(instance).execute()
+                PopulateDatabaseAsyncTask(INSTANCE).execute()
             }
 
             override fun onOpen(db: SupportSQLiteDatabase) {
@@ -44,14 +70,14 @@ public  abstract class CurrencyDatabase : RoomDatabase() {
         }
 
         private class PopulateDatabaseAsyncTask : AsyncTask<Void, Void, Void> {
-            private lateinit var currencyDAO: CurrencyDAO
+            //private lateinit var currencyDAO: CurrencyDAO
 
             constructor(db: CurrencyDatabase?){
-                currencyDAO = db?.currencyDAO()!!
+                //currencyDAO = db?.currencyDAO()!!
             }
 
             override fun doInBackground(vararg voids: Void): Void? {
-                currencyDAO.insert(CurrencyTable("USB","VIDEO","video.mp4"));
+                //currencyDAO.insert(CurrencyTable("0.00","0.00"))
                 return null
             }
         }

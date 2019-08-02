@@ -28,8 +28,7 @@
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/tv_status"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:tag="binding_1"           />
+                    android:layout_height="wrap_content"/>
 
             </RelativeLayout>
 
@@ -66,8 +65,10 @@
 
                 <EditText
                     android:id="@+id/et_amount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType = "number" />
 
             </RelativeLayout>
 

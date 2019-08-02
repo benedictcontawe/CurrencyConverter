@@ -1,41 +1,35 @@
 package com.example.currencyconverter.Model.Room.Table
 
+import androidx.annotation.NonNull
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "currency_table")
-class CurrencyTable {
+public class CurrencyTable {
 
-    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey
+    @NonNull
     @ColumnInfo(name = "Id")
-    private var id : Int? = null
+    var id : Int? = null
 
-    @ColumnInfo(name = "Amount")
-    private var fromAmount : String? = null
+    @ColumnInfo(name = "CurrentAmount")
+    var fromAmount : String? = null
 
-    @ColumnInfo(name = "Currency")
-    private var fromCurrency : String? = null
+    @ColumnInfo(name = "CurrentCurrency")
+    var fromCurrency : String? = null
 
-    @ColumnInfo(name = "Converted Currency")
-    private var toCurrency : String? = null
+    @ColumnInfo(name = "ConvertedAmount")
+    var toAmount : String? = null
 
-    constructor(fromAmount : String, fromCurrency : String, toCurrency : String){
+    @ColumnInfo(name = "ConvertedCurrency")
+    var toCurrency : String? = null
+
+    constructor(fromAmount : String, fromCurrency : String, toAmount : String, toCurrency : String){
         this.id = 1
         this.fromAmount = fromAmount
         this.fromCurrency = fromCurrency
+        this.toAmount = toAmount
         this.toCurrency = toCurrency
-    }
-
-    fun getAmount() : String {
-        return fromAmount?:"0.00"
-    }
-
-    fun getCurrency() : String {
-        return fromCurrency?:"0.00"
-    }
-
-    fun getLatestCurrency() : String {
-        return toCurrency?:"0.00"
     }
 }
