@@ -1,218 +1,221 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
-MERGED from [androidx.databinding:databinding-adapters:3.4.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\b41698806f81e4c23d3e38b75da22733\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.databinding:databinding-runtime:3.4.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\48bc9792a6b4112b49cb630d3b8b39d9\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\99c44309b0d832130c6fbf3451f782d3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e6b971182e5403102be9280b56f03e\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\0c7cbca05b7b5a2ec3a3727da336d6df\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\8618e750c4235157fc8f4a7acac65e92\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\bcf856aca97d30478acd859efca8564d\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\70cbfd60a25a7542f273a06d3dc6cd83\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\52b3011f7a18346f95c386c3dca82a5c\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\9cb87312de1e45fb554c28816b410624\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\99cd4084db7c2d5d80c6069c2951c8b8\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\525069bd8d0ec306005ee55cb5c05f16\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\6f1c5d122047a06a9143feae75425c78\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\3d55ccf38d6a9eb5fb7ab84148fd2974\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\abc6edaba2e40dc43aa24cc36a716a1d\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\ac2ac7f13b1c475c5727fc39729ae650\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\57b1b69f1c718373079d002769f70552\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\de1e24480b0830a93e2bcb9255ebffeb\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\49c0519ad201806f136374374a91a8e7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\d55ac78c8f4430009b39a9519840a4c5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\bc44cf78275e5e8db56f89ff384551a5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\4a2719751af1260646817ff7d3df0d01\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\8a6a859f1ed03eeead44567e63681155\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\27d4b5c5593dcb131501fa00f768c4fa\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e51f3d026d31c0b4777e4fb616bf42\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\a817e1eaefe7d4223b4de7667f8d3402\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\2d87d476dbf55653944d67b99b4c765e\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\baaaf41edd5912e3ed957f5995d9bad4\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\3b16715db4d46396c98b27ea038f21fb\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\fbea3d4476a9897e356f78d8230a30aa\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\0e911f8c158875af8df92a453023b8c4\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\a8933710498d5c53af0663f8a0b94142\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\c72e20766f8b1c2303cc0f6511f5a6b7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\e434280c0ffaebf92efac085120dc079\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\74270fd9df2851ed99dacf21b783507f\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\d3036e7ef2ec168e24b81f7793d58b02\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\7ddcda061b7a95f1321bdf71c10e83c9\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\c69f297040a6b286d607c6b3e2423735\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.databinding:databinding-adapters:3.6.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\8e4940ae8ef9f9be162a22f08baefaf8\databinding-adapters-3.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.6.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b4e0824f52fe5e012636b6016a6b1543\databinding-runtime-3.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\e5c4279b44c95555b0fd17f10ebb1d33\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\5ff8e7f474e2234285c6301ff7476ceb\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\5675cdfefb3c47e0b03f156361fa15c2\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b3d1022fa584aa27221aa8fb09012750\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\2fd2eafe2539ea83752c36869d9c178d\jetified-lifecycle-viewmodel-ktx-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\47e99a6de89d3032859dfc27d2292d17\jetified-core-ktx-1.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:3.6.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\6ee6cce5ac6d7e398ee05ca681c095fd\jetified-viewbinding-3.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\d51ec2aed2e1bf8813478ded4bc81c2b\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\50feaad5aef2eac8867fc725edd45d29\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\d21975f9457397f2b2a43b2ab7c91c83\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b816812c2fa58456cefde6ebafac901b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\2a92a8e56d0ff6bab54468eec5785f21\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\0ee1ed018fe6f7606a4bb43ab8361403\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\956e9e8a6a58c9f7b219217f3484e29e\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b4a7a88d2e51b533bff39542c83cd598\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\bd9fe31953777dfbc662f394f1226d9c\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\8439e5d11e84d3ae4beec63966ff99d4\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\63cfc547190ad6c0798c4200070665e7\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b8425e475b4e08d873f77bcbfa30bce0\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\90d4fb6a5bae265385eed6c7d3e90fce\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\58b1f0deddfd22a84900d434901f4cc0\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\20eff465aa62e8858a0fcc0834272666\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\17545647c95aa2d670ee3639ce94d7d3\core-1.0.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\9b236e38113d575dc4696c06c1937d93\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\27e76500dc767a0161986c737418b28a\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\f2129d3836c4b9a9a2f858e885b9eefb\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\f30590f902b4d012dd7a9e7b77ec884e\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\48554001336807440b6d8388a35c9061\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\73a70b72d39b4b74a50c4c53056e0dd0\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c17223d82f20c4eb219027883f7cde5b\core-runtime-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b0df07adb98de651be6a67c5bf56797f\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\cf0cda767a21cf1593865552453c4771\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\4defca0959d1ef80be639732b15d419e\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\e858bd7551bbab665f30467ef87a6e58\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c71083c043723b2e0b9b22faf754cff8\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\94ebb100f97f4739eec163c22c4296dd\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:3:11-50
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:3:11-50
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:7:5-22:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e6b971182e5403102be9280b56f03e\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e6b971182e5403102be9280b56f03e\AndroidManifest.xml:9:5-20
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\8618e750c4235157fc8f4a7acac65e92\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\8618e750c4235157fc8f4a7acac65e92\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\70cbfd60a25a7542f273a06d3dc6cd83\AndroidManifest.xml:24:5-28:19
-MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\70cbfd60a25a7542f273a06d3dc6cd83\AndroidManifest.xml:24:5-28:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:22:5-28:19
-MERGED from [androidx.core:core:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e51f3d026d31c0b4777e4fb616bf42\AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e51f3d026d31c0b4777e4fb616bf42\AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\2d87d476dbf55653944d67b99b4c765e\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\2d87d476dbf55653944d67b99b4c765e\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:7:5-22:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\5ff8e7f474e2234285c6301ff7476ceb\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\5ff8e7f474e2234285c6301ff7476ceb\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b3d1022fa584aa27221aa8fb09012750\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b3d1022fa584aa27221aa8fb09012750\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.core:core:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\17545647c95aa2d670ee3639ce94d7d3\core-1.0.2\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\17545647c95aa2d670ee3639ce94d7d3\core-1.0.2\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\27e76500dc767a0161986c737418b28a\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\27e76500dc767a0161986c737418b28a\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e51f3d026d31c0b4777e4fb616bf42\AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\17545647c95aa2d670ee3639ce94d7d3\core-1.0.2\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:12:13-39
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:12:13-39
 	android:label
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:10:13-45
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:10:13-45
 	android:roundIcon
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:11:13-58
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:11:13-58
 	android:icon
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:9:13-47
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:9:13-47
 	android:allowBackup
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:8:13-39
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:8:13-39
 	android:theme
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:13:13-44
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:13:13-44
 	android:usesCleartextTraffic
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:14:13-48
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:14:13-48
 activity#com.example.currencyconverter.View.MainActivity
-ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:15:19-52
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:15:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:17:17-68
+ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:17:17-68
 	android:name
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:19:17-76
+ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:19:17-76
 	android:name
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:19:27-74
 uses-sdk
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-MERGED from [androidx.databinding:databinding-adapters:3.4.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\b41698806f81e4c23d3e38b75da22733\AndroidManifest.xml:22:5-44
-MERGED from [androidx.databinding:databinding-adapters:3.4.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\b41698806f81e4c23d3e38b75da22733\AndroidManifest.xml:22:5-44
-MERGED from [androidx.databinding:databinding-runtime:3.4.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\48bc9792a6b4112b49cb630d3b8b39d9\AndroidManifest.xml:22:5-44
-MERGED from [androidx.databinding:databinding-runtime:3.4.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\48bc9792a6b4112b49cb630d3b8b39d9\AndroidManifest.xml:22:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\99c44309b0d832130c6fbf3451f782d3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\99c44309b0d832130c6fbf3451f782d3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e6b971182e5403102be9280b56f03e\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e6b971182e5403102be9280b56f03e\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\0c7cbca05b7b5a2ec3a3727da336d6df\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\0c7cbca05b7b5a2ec3a3727da336d6df\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\8618e750c4235157fc8f4a7acac65e92\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\8618e750c4235157fc8f4a7acac65e92\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\bcf856aca97d30478acd859efca8564d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\bcf856aca97d30478acd859efca8564d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\70cbfd60a25a7542f273a06d3dc6cd83\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\70cbfd60a25a7542f273a06d3dc6cd83\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\52b3011f7a18346f95c386c3dca82a5c\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\52b3011f7a18346f95c386c3dca82a5c\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\9cb87312de1e45fb554c28816b410624\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\9cb87312de1e45fb554c28816b410624\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\99cd4084db7c2d5d80c6069c2951c8b8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\99cd4084db7c2d5d80c6069c2951c8b8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\525069bd8d0ec306005ee55cb5c05f16\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\525069bd8d0ec306005ee55cb5c05f16\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\6f1c5d122047a06a9143feae75425c78\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\6f1c5d122047a06a9143feae75425c78\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\3d55ccf38d6a9eb5fb7ab84148fd2974\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\3d55ccf38d6a9eb5fb7ab84148fd2974\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\abc6edaba2e40dc43aa24cc36a716a1d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\abc6edaba2e40dc43aa24cc36a716a1d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\ac2ac7f13b1c475c5727fc39729ae650\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\ac2ac7f13b1c475c5727fc39729ae650\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\57b1b69f1c718373079d002769f70552\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\57b1b69f1c718373079d002769f70552\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\de1e24480b0830a93e2bcb9255ebffeb\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\de1e24480b0830a93e2bcb9255ebffeb\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\49c0519ad201806f136374374a91a8e7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\49c0519ad201806f136374374a91a8e7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\d55ac78c8f4430009b39a9519840a4c5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\d55ac78c8f4430009b39a9519840a4c5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\bc44cf78275e5e8db56f89ff384551a5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\bc44cf78275e5e8db56f89ff384551a5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\4a2719751af1260646817ff7d3df0d01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\4a2719751af1260646817ff7d3df0d01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\8a6a859f1ed03eeead44567e63681155\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\8a6a859f1ed03eeead44567e63681155\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\27d4b5c5593dcb131501fa00f768c4fa\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\27d4b5c5593dcb131501fa00f768c4fa\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e51f3d026d31c0b4777e4fb616bf42\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.2] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\16e51f3d026d31c0b4777e4fb616bf42\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\a817e1eaefe7d4223b4de7667f8d3402\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\a817e1eaefe7d4223b4de7667f8d3402\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\2d87d476dbf55653944d67b99b4c765e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\2d87d476dbf55653944d67b99b4c765e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\baaaf41edd5912e3ed957f5995d9bad4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\baaaf41edd5912e3ed957f5995d9bad4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\3b16715db4d46396c98b27ea038f21fb\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\3b16715db4d46396c98b27ea038f21fb\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\fbea3d4476a9897e356f78d8230a30aa\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\fbea3d4476a9897e356f78d8230a30aa\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\0e911f8c158875af8df92a453023b8c4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\0e911f8c158875af8df92a453023b8c4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\a8933710498d5c53af0663f8a0b94142\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\a8933710498d5c53af0663f8a0b94142\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\c72e20766f8b1c2303cc0f6511f5a6b7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\c72e20766f8b1c2303cc0f6511f5a6b7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\e434280c0ffaebf92efac085120dc079\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\e434280c0ffaebf92efac085120dc079\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\74270fd9df2851ed99dacf21b783507f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\74270fd9df2851ed99dacf21b783507f\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\d3036e7ef2ec168e24b81f7793d58b02\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\d3036e7ef2ec168e24b81f7793d58b02\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\7ddcda061b7a95f1321bdf71c10e83c9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\7ddcda061b7a95f1321bdf71c10e83c9\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\c69f297040a6b286d607c6b3e2423735\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\c69f297040a6b286d607c6b3e2423735\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.6.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\8e4940ae8ef9f9be162a22f08baefaf8\databinding-adapters-3.6.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.6.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\8e4940ae8ef9f9be162a22f08baefaf8\databinding-adapters-3.6.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b4e0824f52fe5e012636b6016a6b1543\databinding-runtime-3.6.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b4e0824f52fe5e012636b6016a6b1543\databinding-runtime-3.6.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\e5c4279b44c95555b0fd17f10ebb1d33\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\e5c4279b44c95555b0fd17f10ebb1d33\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\5ff8e7f474e2234285c6301ff7476ceb\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\5ff8e7f474e2234285c6301ff7476ceb\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\5675cdfefb3c47e0b03f156361fa15c2\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\5675cdfefb3c47e0b03f156361fa15c2\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b3d1022fa584aa27221aa8fb09012750\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b3d1022fa584aa27221aa8fb09012750\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\2fd2eafe2539ea83752c36869d9c178d\jetified-lifecycle-viewmodel-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\2fd2eafe2539ea83752c36869d9c178d\jetified-lifecycle-viewmodel-ktx-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\47e99a6de89d3032859dfc27d2292d17\jetified-core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\47e99a6de89d3032859dfc27d2292d17\jetified-core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\6ee6cce5ac6d7e398ee05ca681c095fd\jetified-viewbinding-3.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\6ee6cce5ac6d7e398ee05ca681c095fd\jetified-viewbinding-3.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\d51ec2aed2e1bf8813478ded4bc81c2b\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\d51ec2aed2e1bf8813478ded4bc81c2b\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\50feaad5aef2eac8867fc725edd45d29\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\50feaad5aef2eac8867fc725edd45d29\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\d21975f9457397f2b2a43b2ab7c91c83\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\d21975f9457397f2b2a43b2ab7c91c83\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b816812c2fa58456cefde6ebafac901b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b816812c2fa58456cefde6ebafac901b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\2a92a8e56d0ff6bab54468eec5785f21\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\2a92a8e56d0ff6bab54468eec5785f21\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\0ee1ed018fe6f7606a4bb43ab8361403\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\0ee1ed018fe6f7606a4bb43ab8361403\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\956e9e8a6a58c9f7b219217f3484e29e\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\956e9e8a6a58c9f7b219217f3484e29e\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b4a7a88d2e51b533bff39542c83cd598\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b4a7a88d2e51b533bff39542c83cd598\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\bd9fe31953777dfbc662f394f1226d9c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\bd9fe31953777dfbc662f394f1226d9c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\8439e5d11e84d3ae4beec63966ff99d4\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\8439e5d11e84d3ae4beec63966ff99d4\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\63cfc547190ad6c0798c4200070665e7\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\63cfc547190ad6c0798c4200070665e7\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b8425e475b4e08d873f77bcbfa30bce0\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b8425e475b4e08d873f77bcbfa30bce0\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\90d4fb6a5bae265385eed6c7d3e90fce\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\90d4fb6a5bae265385eed6c7d3e90fce\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\58b1f0deddfd22a84900d434901f4cc0\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\58b1f0deddfd22a84900d434901f4cc0\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\20eff465aa62e8858a0fcc0834272666\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\20eff465aa62e8858a0fcc0834272666\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\17545647c95aa2d670ee3639ce94d7d3\core-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\17545647c95aa2d670ee3639ce94d7d3\core-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\9b236e38113d575dc4696c06c1937d93\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\9b236e38113d575dc4696c06c1937d93\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\27e76500dc767a0161986c737418b28a\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\27e76500dc767a0161986c737418b28a\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\f2129d3836c4b9a9a2f858e885b9eefb\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\f2129d3836c4b9a9a2f858e885b9eefb\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\f30590f902b4d012dd7a9e7b77ec884e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\f30590f902b4d012dd7a9e7b77ec884e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\48554001336807440b6d8388a35c9061\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\48554001336807440b6d8388a35c9061\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\73a70b72d39b4b74a50c4c53056e0dd0\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\73a70b72d39b4b74a50c4c53056e0dd0\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c17223d82f20c4eb219027883f7cde5b\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c17223d82f20c4eb219027883f7cde5b\core-runtime-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b0df07adb98de651be6a67c5bf56797f\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\b0df07adb98de651be6a67c5bf56797f\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\cf0cda767a21cf1593865552453c4771\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\cf0cda767a21cf1593865552453c4771\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\4defca0959d1ef80be639732b15d419e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\4defca0959d1ef80be639732b15d419e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\e858bd7551bbab665f30467ef87a6e58\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\e858bd7551bbab665f30467ef87a6e58\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c71083c043723b2e0b9b22faf754cff8\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c71083c043723b2e0b9b22faf754cff8\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\94ebb100f97f4739eec163c22c4296dd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\94ebb100f97f4739eec163c22c4296dd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\benedict.b.contawe\StudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
 service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.1.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\70cbfd60a25a7542f273a06d3dc6cd83\AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from [androidx.room:room-runtime:2.1.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\70cbfd60a25a7542f273a06d3dc6cd83\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.room:room-runtime:2.1.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\70cbfd60a25a7542f273a06d3dc6cd83\AndroidManifest.xml:26:13-74
+		ADDED from [androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:23:9-27:43
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 	android:authorities
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:25:13-69
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
 	android:multiprocess
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:27:13-40
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
 	android:exported
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:26:13-37
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\benedict.b.contawe\.gradle\caches\transforms-2\files-2.1\33167b7562e27bf34f71aeaff385d734\AndroidManifest.xml:24:13-79
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79

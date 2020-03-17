@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.currencyconverter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:7:5-22:19
+14        android:allowBackup="true"
+14-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:8:13-39
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.2] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\17545647c95aa2d670ee3639ce94d7d3\core-1.0.2\AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:9:13-47
+18        android:label="@string/app_name"
+18-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:10:13-45
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:11:13-58
+20        android:supportsRtl="true"
+20-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:12:13-39
+21        android:theme="@style/AppTheme"
+21-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:13:13-44
+22        android:usesCleartextTraffic="true" >
+22-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:14:13-48
+23        <activity android:name="com.example.currencyconverter.View.MainActivity" >
+23-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:15:9-21:20
+23-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:15:19-52
+24            <intent-filter>
+24-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:17:17-68
+25-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:19:17-76
+27-->C:\Users\Benedict\AndroidStudioProjects\CurrencyConverter\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <service
+31-->[androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+32            android:name="androidx.room.MultiInstanceInvalidationService"
+32-->[androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+33            android:exported="false" />
+33-->[androidx.room:room-runtime:2.1.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\a1abc09de9e6b65e0d142224e2511403\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+34
+35        <provider
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+37            android:authorities="com.example.currencyconverter.lifecycle-process"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+38            android:exported="false"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+39            android:multiprocess="true" />
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Benedict\.gradle\caches\transforms-2\files-2.1\c0d74f1f19694700018da2144a74eb16\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+40    </application>
+41
+42</manifest>
