@@ -3,8 +3,6 @@ package com.example.currencyconverter.Model.WebService
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.Retrofit
 
-
-
 class NetworkClient {
     companion object{
         val BASE_URL = "http://api.evp.lt"

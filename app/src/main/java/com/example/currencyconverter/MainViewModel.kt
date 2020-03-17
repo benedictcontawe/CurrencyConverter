@@ -25,7 +25,7 @@ public class MainViewModel : AndroidViewModel {
         return repository.getFirst()
     }
 
-    fun requestCurrency(fromAmount : String, fromCurrency : String, toCurrency : String){
+    fun requestCurrency(fromAmount : String, fromCurrency : String, toCurrency : String) {
         val currencyRequestModel : CurrencyRequestModel = CurrencyRequestModel(fromAmount,fromCurrency,toCurrency)
         repository.requestCurrency(currencyRequestModel)
     }
