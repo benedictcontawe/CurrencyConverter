@@ -30,7 +30,7 @@ public class MainViewModel : AndroidViewModel {
         repository.requestCurrency(currencyRequestModel)
     }
 
-    @Deprecated("For GSON Test Reader")
+    @Deprecated("Use readGSON method in ExampleUnitTest class")
     fun readGSON() : String{
         val gson : Gson = Gson()
         var json : String = "{\"amount\":\"40468\",\"currency\":\"JPY\"}"
