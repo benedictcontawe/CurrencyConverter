@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\benedict.b.contawe\\StudioProjects\\CurrencyConverter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\Benedict\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\benedict.b.contawe\\.gradle\\caches\\transforms-2\\files-2.1\\99c44309b0d832130c6fbf3451f782d3\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\Benedict\\.gradle\\caches\\transforms-2\\files-2.1\\e5c4279b44c95555b0fd17f10ebb1d33\\appcompat-1.0.2\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
