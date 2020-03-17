@@ -16,7 +16,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-public class CurrencyRepository : BaseRepository{
+public class CurrencyRepository : BaseRepository {
 
     companion object {
         var currencyRepository : CurrencyRepository? = null
@@ -39,7 +39,7 @@ public class CurrencyRepository : BaseRepository{
         this.currencyDAO = database.currencyDAO()
     }
 
-    fun requestCurrency(currencyRequestModel: CurrencyRequestModel){
+    fun requestCurrency(currencyRequestModel: CurrencyRequestModel) {
         //Obtain an instance of Retrofit by calling the static method.
         val retrofit = NetworkClient.provideOkHttpClient()
 
@@ -79,22 +79,22 @@ public class CurrencyRepository : BaseRepository{
     }
     //region CRUD Operation Basic
     override fun insert(currencyTable: CurrencyTable) {
-        InsertMediaAsyncTask(currencyDAO!!).execute(currencyTable)
+        InsertMediaAsyncTask(currencyDAO).execute(currencyTable)
         //currencyDAO?.let { InsertMediaAsyncTask(it).execute(currencyTable) }
     }
 
     override fun update(currencyTable: CurrencyTable) {
-        UpdateMediaAsyncTask(currencyDAO!!).execute(currencyTable)
+        UpdateMediaAsyncTask(currencyDAO).execute(currencyTable)
         //currencyDAO?.let { UpdateMediaAsyncTask(it).execute(currencyTable) }
     }
 
     override fun delete(currencyTable: CurrencyTable) {
-        DeleteMediaAsyncTask(currencyDAO!!).execute(currencyTable)
+        DeleteMediaAsyncTask(currencyDAO).execute(currencyTable)
         //currencyDAO?.let { DeleteMediaAsyncTask(it).execute(currencyTable) }
     }
 
     override fun deleteAll() {
-        DeleteAllMediaAsyncTask(currencyDAO!!).execute()
+        DeleteAllMediaAsyncTask(currencyDAO).execute()
         //currencyDAO.let { DeleteAllMediaAsyncTask(it).execute() }
     }
     //endregion

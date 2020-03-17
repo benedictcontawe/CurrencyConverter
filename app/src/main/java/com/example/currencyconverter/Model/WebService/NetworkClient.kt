@@ -5,8 +5,8 @@ import retrofit2.Retrofit
 
 class NetworkClient {
     companion object{
-        val BASE_URL = "http://api.evp.lt"
-        var retrofit: Retrofit? = null
+        private val BASE_URL = "http://api.evp.lt"
+        private var retrofit: Retrofit? = null
         /*
         This public static method will return Retrofit client
         anywhere in the appplication
