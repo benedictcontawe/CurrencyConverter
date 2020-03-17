@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6607f2d7-a82e-467f-bc74-786b6530ef77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/Model/Repository/CurrencyRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/Model/Repository/CurrencyRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/Model/WebService/NetworkClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/currencyconverter/Model/WebService/NetworkClient.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +179,35 @@
       <option name="project" value="LOCAL" />
       <updated>1584427091937</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Network class, Repository class update.">
+      <created>1584427347797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584427347797</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update workspace xml">
+      <created>1584427362168</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584427362168</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update deprecated message">
+      <created>1584427445723</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584427445723</updated>
+    </task>
+    <task id="LOCAL-00008" summary="code space format, change var to val">
+      <created>1584438829666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584438829666</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +225,10 @@
     <MESSAGE value="Update files" />
     <MESSAGE value="Update verion, format code spaces, add new method for UnitTest" />
     <MESSAGE value="Update other files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update other files" />
+    <MESSAGE value="Network class, Repository class update." />
+    <MESSAGE value="update workspace xml" />
+    <MESSAGE value="update deprecated message" />
+    <MESSAGE value="code space format, change var to val" />
+    <option name="LAST_COMMIT_MESSAGE" value="code space format, change var to val" />
   </component>
 </project>
