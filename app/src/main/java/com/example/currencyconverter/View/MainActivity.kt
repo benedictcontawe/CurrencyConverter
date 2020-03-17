@@ -44,8 +44,8 @@ public class MainActivity : AppCompatActivity(), View.OnClickListener {
                         "${data[0].fromAmount} " +
                         "${data[0].fromCurrency} " +
                         "to " +
-                        "${data[0].fromAmount} " +
-                        "${data[0].fromCurrency}" +
+                        "${data[0].toAmount} " +
+                        "${data[0].toCurrency}" +
                         ". Commission Fee - 0.70 [fromCurrency].")
                 Toast.makeText(this@MainActivity, "Converted!", Toast.LENGTH_SHORT).show()
             }

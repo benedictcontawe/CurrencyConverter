@@ -34,17 +34,17 @@ public class CurrencyRepository : BaseRepository {
 
     private lateinit var currencyDAO : CurrencyDAO
 
+    private lateinit var currencyAPI : CurrencyAPI
+
     constructor(application: Application) {
+        //Obtain an instance of Room by calling the static method.
         val database = CurrencyDatabase.getDatabase(application as Context)
         this.currencyDAO = database.currencyDAO()
+
+        this.currencyAPI = NetworkClient.createService(CurrencyAPI::class.java)
     }
 
     fun requestCurrency(currencyRequestModel: CurrencyRequestModel) {
-        //Obtain an instance of Retrofit by calling the static method.
-        val retrofit = NetworkClient.provideOkHttpClient()
-
-        val currencyAPI : CurrencyAPI = retrofit!!.create(CurrencyAPI::class.java)
-
         val call = currencyAPI.getCurrencyDatils(currencyRequestModel.fromAmount?:"0.00",currencyRequestModel.fromCurrency?:"EUR",currencyRequestModel.toCurrency?:"USD")
 
         call.enqueue(object : Callback<CurrencyResponseModel> {
