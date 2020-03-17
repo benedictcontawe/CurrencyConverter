@@ -31,7 +31,7 @@ public class MainViewModel : AndroidViewModel {
     }
 
     @Deprecated("Use readGSON method in ExampleUnitTest class")
-    fun readGSON() : String{
+    fun readGSON() : String {
         val gson : Gson = Gson()
         var json : String = "{\"amount\":\"40468\",\"currency\":\"JPY\"}"
         val currencyResponseModel: CurrencyResponseModel = gson.fromJson(json, CurrencyResponseModel::class.java)

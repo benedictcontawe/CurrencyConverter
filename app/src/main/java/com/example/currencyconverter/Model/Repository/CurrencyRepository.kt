@@ -43,9 +43,9 @@ public class CurrencyRepository : BaseRepository {
         //Obtain an instance of Retrofit by calling the static method.
         val retrofit = NetworkClient.provideOkHttpClient()
 
-        var currencyAPI : CurrencyAPI = retrofit!!.create(CurrencyAPI::class.java)
+        val currencyAPI : CurrencyAPI = retrofit!!.create(CurrencyAPI::class.java)
 
-        var call = currencyAPI.getCurrencyDatils(currencyRequestModel.fromAmount?:"0.00",currencyRequestModel.fromCurrency?:"EUR",currencyRequestModel.toCurrency?:"USD")
+        val call = currencyAPI.getCurrencyDatils(currencyRequestModel.fromAmount?:"0.00",currencyRequestModel.fromCurrency?:"EUR",currencyRequestModel.toCurrency?:"USD")
 
         call.enqueue(object : Callback<CurrencyResponseModel> {
 
