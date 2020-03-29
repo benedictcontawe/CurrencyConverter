@@ -1,4 +1,4 @@
-#Thu Aug 01 21:34:41 CST 2019
-base.0=C\:\\Users\\benedict.b.contawe\\StudioProjects\\CurrencyConverter\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Sun Mar 29 16:02:22 SGT 2020
+base.0=C\:\\Users\\Benedict\\AndroidStudioProjects\\CurrencyConverter\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
